@@ -1,0 +1,10 @@
+.container {
+    background-color: rgb(31, 197, 209);
+    margin-inline: 15px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+    min-width: 330px;
+}   

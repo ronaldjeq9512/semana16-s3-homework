@@ -1,0 +1,45 @@
+.countryContainer {
+    background-color: chocolate;
+    min-width: 320px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    box-shadow: 12px 4px 8px rgba(221, 44, 212, 0.2);
+    border-radius: 20px;
+    gap: 12px
+}
+
+.countryName {
+    color:chartreuse;
+}
+
+.countryImage {
+    width: 150px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 120px;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-inline: 10px;
+    margin-block: 10px;
+}
+
+.aditionalInfo {
+    border: 1px solid black;
+    flex: 1;
+    border-radius: 10px;
+    padding-inline: 5px;
+}
+
+.titleInfo {
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
