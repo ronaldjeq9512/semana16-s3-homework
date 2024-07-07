@@ -5,7 +5,7 @@
 
 ## Pasos 
 
-### 1. Se creó el archivo de constantes
+### 1. Se creó el array de objetos
 ``` ts
 export const COUNTRIES = [
     {
@@ -63,7 +63,7 @@ export const COUNTRIES = [
 ];
 ```
 
-### 2. Se creó la tipografía
+### 2. Se creó los tipos de datos
 ```ts
 export interface SoccerCaptain {
     name: string;
